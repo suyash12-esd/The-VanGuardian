@@ -1,0 +1,94 @@
+html{
+    background-color: #f0f0f0;
+}
+body{
+    width: 1500px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+    color: black;
+    background-color: white;
+    padding: 90px;
+    padding-top: 15px;
+}
+.toprightbutton1{
+    float: right;
+    background-color:rgb(59, 59, 156);
+    color: white;
+    text-shadow: wheat;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.toprightbutton2{
+    float: right;
+    background-color: rgb(59, 59, 156);
+    color: white;
+    text-shadow: wheat;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.language li{
+    display: inline;
+    width: 0.7em;
+    padding: 100px;
+}
+h1 {
+    background-color: rgb(78, 195, 235);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.titleright{
+    float: right;
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+nav li{
+    text-decoration: none;
+    color: black;
+    display: inline;
+    width: 0.7em;
+    padding: 30px;
+}
+.asidefloat_left{
+    float: right;
+    height: fit-content;
+    width: 150px;
+    margin-left: 40px;
+    margin-right: 10px;
+    background-color: white;
+    padding: 0px;
+    border: none;
+    }
+
+.asidefloat_right{
+    float: right;
+    width: 150px;
+    height: auto;
+    margin-left: 40px;
+    margin-right: 10px;
+    background-color: white;
+    padding: 50px;
+    border: none;
+    }
+h4{
+     color: grey;
+     }
+h2{
+    color: red;
+    font-size: 1.2em;
+}
+.fouricons{
+    list-style: none;
+}
+.bottomline li{
+    display: inline;
+    width: 0.7em;
+    padding: 20px;
+}
+.copyright{
+    text-align: center;
+    color: rgb(66, 117, 226);
+}

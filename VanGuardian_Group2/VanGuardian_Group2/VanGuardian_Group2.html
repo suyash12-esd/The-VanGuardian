@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>The Vanguardian online Newspaper</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'> 
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg></script>
+    <link rel="stylesheet" href="css/VanGuardian.css" type="text/css">
+    <!--insert name of css file after href-->
+
+</head>
+
+<body>
+   
+        <header>
+
+        <!--icons on top left to be floated like esade icon from S3-->
+            <i class="fas fa-bars" style="font-size:20px"> </i>
+            <i class="fas fa-search" style="font-size:20px"> </i>
+        
+        <!--buttons on top right to be floated-->  
+            <a href=”https://ecampus.esade.edu/course/view.php?”><button type="button" class="toprightbutton1" > SUBSCRIBE NOW</button></a> 
+            <a href=”https://ecampus.esade.edu/course/view.php?”><button type="button" class="toprightbutton2" > LOG IN </button></a>
+
+        <!--language/country on top of the page to be floated-->    
+        <ul class="language">
+            <li>U.S.</li>
+            <li><b>International</b></li>
+            <li>Canada</li>
+            <li>Espanol</li>
+            <li>Chinese</li>
+        </ul>
+
+         <!--The Blue VanGuardian Line-->
+        <h1 class="maintitle">The VanGuardian</h1>
+
+        <div class="titleleft">
+            <p class="date">Monday, June 7, 2021</p>
+            <p><b>Today's Paper</b></p>
+        </div>
+
+        <div class="titleright">
+            <i class="fas fa-sun" style="font-size:20px"> </i>
+            <p class="temp">22<span style='font-size:15px;'>&#8451;</span></p> <!--"temp" is the class for temperature-->
+            <i class="stock"> NASDAQ:+1.31% <span style='font-size:15px;'>&#8593;</span></i>
+        </div>
+
+        <hr>
+
+        <!-- Topics menu-->
+        <nav>
+            <ul class="Topics">
+                <li><a href="https://edition.cnn.com/specials/politics/world-politics" target="_blank">World Politics</a></li>          
+                <li><a href="https://edition.cnn.com/business" target="_blank">Business</a></li>
+                <li><a href="https://edition.cnn.com/opinions" target="_blank">Opinion</a></li>
+                <li><a href="https://edition.cnn.com/business/tech" target="_blank">Tech</a></li>
+                <li><a href="https://edition.cnn.com/specials/space-science" target="_blank">Science</a></li>
+                <li><a href="https://edition.cnn.com/health" target="_blank">Health</a></li>
+                <li><a href="https://edition.cnn.com/sport" target="_blank">Sports</a></li>
+                <li><a href="https://edition.cnn.com/style/arts" target="_blank">Arts</a></li>
+                <li><a href="http://edition.cnn.com/books/news/" target="_blank">Books</a></li>
+                <li><a href="https://edition.cnn.com/travel/news" target="_blank">Travel</a></li>
+                <li><a href="https://edition.cnn.com/specials/politics/state-cnn-politics-magazine" target="_blank">Magazine</a></li>
+            </ul>
+        </nav>
+
+         <!--we've put two hrs but it might be another element like a box-->
+        <hr>
+        <hr>
+   
+    </header>
+
+<!-- Aside (right hand side of the page) - Its divided in 5 divs. 
+    div 1 is for the 3 speakers on the leftside
+    div 2 for for the 3 speakers on the right
+       we've taken the speaker names as h4 so you can apply style to them 
+    div 3 for for editors pick van gogh article 
+    div 4 is for editors pick modern love, same class as div 1 so its on the left
+    div 5 is for big city same class div 2 so it floats on the right
+-->
+    <aside>
+        
+        
+        <div class="asidefloat_left">
+
+            <p><b>Opinion</b></p>
+            
+            <img src="img/Michelle_Cottle.jpg" alt="Michelle Cottle">
+            <h4>Michelle Cottle</h4>
+            <p>Will Congress Abandon America’s Seniors?</p>
+            
+            <img src="img/Paul_Krugman.jpg" alt="Paul Krugman">
+            <h4>Paul Krugman</h4>
+            <p>Can the Rich Pay for a Better America?</p>
+            
+            <img src="img/Thomas_Friedman.jpg" alt="Thomas L. Friedman">
+            <h4>Thomas L.Friedman</h4>
+            <p>Bibi Is Trump and the Israeli Change Coalition Is Biden</p>
+
+            <img src="img/Modern_love.jpg" alt="Modern Love" width=100px>
+            <p>Modern Love: Oh, Dewey, Where Would You Put Me?</p>
+
+
+        </div>
+
+
+        <div class="asidefloat_right">
+
+            <img src="img/Emma_Goldberg.jpg" alt="Emma Goldberg">
+            <h4>Emma Goldberg</h4>
+            <p>She Had Been a Doctor for Six Days Before Her PatientDied</p>  
+
+            <img src="img/David_Brooks.jpg" alt="David Brooks">
+            <h4>David Brooks</h4>
+            <p>You May Live a Lot Longer</p>
+
+            <img src="img/Ezra_Klein.jpg" alt="Ezra Klein">
+            <h4>Ezra Klein Show</h4>
+            <p>Is A.I. the Problem? Or Are We?</p>
+
+            <h3><p><b>Editor's Picks</b></p></h3>
+            <img src="img/van_Gogh_last_days.jpg" alt="Van Gogh Last Days" width=200px>
+            <h3>The Hunt for Clarity About van Gogh’s Last Days Leads to Maine</h3>
+            <p>Experts are examining a watercolor found in an antiques shop that may be a rare work by Edmund Walpole Brooke, who painted with van Gogh.</p>
+
+            <img src="img/Big_New_York_city.jpg" alt="Big New York City" width=100px>
+            <p>Big City: New York City Can’t Just Gentrify Its Way Back to Normal</p>
+
+         </div>
+
+
+       
+
+            
+
+     
+
+
+        
+
+
+    </aside>
+
+
+     <!-- Main content - Right hand side of the page. 
+        It contains one article and three sections. 
+        Each section has two divisions - left and right. 
+        You can make those float-->
+   
+        <article>
+
+        <section class="developing">
+
+            <h2>DEVELOPING</h2>
+
+            <div class="sectionfloat_left" style="padding:1%;">
+                <hr color="black">
+                <b>U.S. Employers Added 559,000 Jobs in May</b>
+                <ul>
+                    <li>
+                        Hiring accelerated, with the government reporting that employers added about twice the previous month’s gains. The unemployment rate fell to 5.8 percent.
+                    </li>
+                    <li>
+                        As coronavirus infections ebb, vaccinations spread and businesses reopen, the economy has started to regain its footing. Here’s the latest in business.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="sectionfloat_right" style="padding:1%;">
+                <hr color="black">
+                <p><b>Cumulative change in jobs since before the pandemic</b></p>
+                <img src="img/Cumulative_change_in_jobs.png" style="width:25%" alt="Cumulative change in jobs since before the pandemic"><br>
+                <img src="img/Patricia_cohen.jpg" style="10%" alt="Patricia Cohen"><p>Patricia Cohen</p>
+                <p>Most economists don’t expect job creation to go into overdrive until the fall when schools reopen, enhanced unemployment benefits and more people are fully vaccinated.</p>
+                <img src="img/4dots.png" style="width: 5%">
+            </div>
+
+        </section>
+
+    
+        <section class="LIVE">
+
+            <h2>LIVE</h2>
+         <div class="sectionfloat_left" style="padding:1%;">
+                <hr color="black">
+                <b>Third Covid Wave Feared in Africa as Vaccinations Falter</b>
+                <p>
+                    Immunization drives on the continent have been crippled by a lack of funding and doses. Here’s the latest on the pandemic.
+                </p>
+            </div>
+
+            <div class="sectionfloat_right" style="padding:1%;">
+                <hr color="black">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/MNY0YP1v3y8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p><b>‘New Delhi Residents Savor Normalcy as Restaurants Reopen’</b></p>
+                <p>We spent a week with New Delhi residents as they began to emerge from fear and isolation — and often after tremendous loss.</p>
+            </div>
+
+            </p>
+        </section>
+
+
+        <section class="UNNAMED"> <!--the section right under live. don't really know if it needed another section or not-->
+
+         <div class="sectionfloat_left" style="padding:1%;">
+                <hr color="black">
+                <b>U.S. Finds No Evidence of Alien Spacecraft but Can’t Rule It Out</b>
+                <p>
+                    A new report concedes that much about the aerial phenomena observed by Navy pilots in recent years remains difficult to explain.
+                </p>
+            </div>
+
+            <div class="sectionfloat_right" style="padding:1%;">
+                <hr color="black">
+                <img src="img/US Navy_no_evidence_Alien.jpg" alt="Here’s why we are all talking about U.F.O.s right now." style="width: 25%">
+            </div>
+
+            </p>
+        </section>
+
+        <hr>
+
+    </article>     
+
+
+       <!-- footer section-->
+    <footer>
+
+        <h1 class="bottomblueline">The Vanguardian</h1> 
+        <!--used a class for h1, you could also remove h1 and use p if its easier-->
+
+        <p><b>SUBRSCRIBE</b></p>
+
+        <ul class="fouricons">
+            <li>
+                <i class="fas fa-home"></i> Home Delivery
+            </li>
+            <li>
+                <i class="fas fa-at"></i> Digital Subscription
+            </li>
+            <li>
+                <i class="fas fa-dice"></i>Games
+            </li>
+            <li>
+                <i class="fas fa-hamburger"></i>Cooking
+            </li>
+        </ul>
+        
+        <ul class="bottomline">
+            <li>Company</li>
+            <li>Contact Us</li>
+            <li>Accessibility</li>
+            <li>Work With Us</li>
+            <li>Advertise</li>
+            <li>Privacy Policy</li>
+            <li>Terms of Use</li>
+            <li>Terms of Sale</li>
+            <li>Site Map</li>
+            <li>Subscriptions</li>
+        </ul>
+        
+        <div class="copyright">
+            <p><i class="far fa-copyright"></i>2021 - The VanGuardian</p>
+        </div>
+        
+    </footer>
+
+</body>
+
+</html>
